@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+}
+.left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.right {
+  height: 100vh;
+  width: 50%;
+  justify-content: center;
+  margin-top: 5%;
+}
+.box {
+  position: absolute;
+  top: 90%;
+  z-index: 1;
+  width: 200px;
+  height: 30px;
+  background-color: rgb(162, 130, 238);
+  transition: 1s;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+}
+
+button {
+  width: 20%;
+  padding: 5%;
+  margin: 2%;
+  background-color: #789278;
+  border: none;
+  cursor: pointer;
+  border-radius: 5%;
+  font-size: 20px;
+  color: white;
+}
+
+button:active {
+  background-color: rgb(219, 193, 218);
+}
